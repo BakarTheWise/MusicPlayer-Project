@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="766.0" style="-fx-background-radius: 10; -fx-background-color: transparent;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.home.demo.HomePageController">
+   <children>
+      <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="4.0" layoutY="14.0" prefHeight="490.0" prefWidth="766.0" style="-fx-background-color: transparent;" text="WELCOME TO ORKESTRA" textFill="WHITE" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

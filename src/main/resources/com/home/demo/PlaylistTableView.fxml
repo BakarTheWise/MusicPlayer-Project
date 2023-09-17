@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.home.demo.PlaylistTableViewController">
+   <children>
+      <TableView fx:id="playlistTableView" layoutX="283.0" layoutY="70.0" prefHeight="200.0" prefWidth="200.0" stylesheets="@TableViewStyle.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="trackNumColumn" prefWidth="44.0" text="#" />
+          <TableColumn fx:id="titleColumn" prefWidth="264.0" text="Title" />
+            <TableColumn fx:id="albumColumn" prefWidth="357.0" text="Album" />
+            <TableColumn fx:id="likesColumn" prefWidth="75.0" />
+            <TableColumn fx:id="durationColumn" prefWidth="98.0" text="Duration" />
+            <TableColumn fx:id="moreOptionsColumn" prefWidth="75.0" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>

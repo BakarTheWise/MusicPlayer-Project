@@ -1,0 +1,18 @@
+.bottom_bar_color {
+    -fx-background-color:linear-gradient(from 25% 25% to 100% 100%, #0B1E3E, #4E154C);
+}
+
+.body-background {
+    -fx-background-color: rgb(25,40,80);
+}
+
+.Menu-bar-background {
+    -fx-background-color: #FF5959;
+    -fx-background-radius: 0 30 30 0;
+}
+
+.stack-pane {
+    -fx-background-color: rgba(255, 255, 255, 0.2); /* Adjust the color and opacity as needed */
+}
+
+/* Apply a blur effect to the StackPane background */

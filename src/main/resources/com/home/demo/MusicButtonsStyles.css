@@ -1,0 +1,12 @@
+.highlight-overlay {
+    /* ... Other properties ... */
+    -fx-opacity: 0; /* Initially transparent */
+    -fx-transition: opacity 0.3s; /* Add a transition for smooth effect */
+
+    /* Hover effect: increase opacity on hover */
+    -fx-background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+}
+
+.highlight-overlay:hover {
+    -fx-opacity: 1; /* Fully opaque on hover */
+}

@@ -1,0 +1,15 @@
+.search-field {
+    -fx-text-fill: white;
+    -fx-border-color: #FFFFFF;
+    -fx-prompt-text-fill: #FFFFFF;
+}
+
+/* Hover effect for the search field */
+.search-field:hover {
+    -fx-background-color: #133581;
+}
+
+
+
+
+

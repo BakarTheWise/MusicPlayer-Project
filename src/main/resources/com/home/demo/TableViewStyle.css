@@ -1,0 +1,35 @@
+/* Apply styles to the TableView */
+.table-view {
+    -fx-background-color: transparent; /* Background color */
+}
+.table-row-cell {
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+}
+
+/* Apply styles to the TableView's header */
+.table-view .column-header .label {
+    -fx-text-fill: #717171;
+    -fx-alignment: center-left; /* Center-left alignment for header text */
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+     /* Header text color */
+}
+
+/* Apply styles to the TableView's cells */
+.table-view .table-cell {
+    -fx-text-fill: #717171; /* Cell text color */
+    -fx-alignment: center-left; /* Center-left alignment for cell contents */
+    -fx-font-size: 13px; /* Font size of cell contents */
+}
+
+/* Apply hover effect to rows */
+.table-row-cell:hover {
+    -fx-background-color: #4D4D4D; /* Hover background color */
+}
+.table-row-cell:filled:selected {
+    -fx-background-color: #777777; /* Selected background color (darker grey) */
+}
+

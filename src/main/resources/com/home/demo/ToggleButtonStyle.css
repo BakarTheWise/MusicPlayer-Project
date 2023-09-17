@@ -1,0 +1,17 @@
+/* Unfilled Heart */
+.heart-unfilled {
+    -fx-background-image: url('C:\Users\Abubakar\IdeaProjects\demo\src\main\resources\com\home\demo\unlike.png');
+    -fx-background-size: cover;
+}
+
+/* Filled Heart */
+.heart-filled {
+    -fx-background-image: url('C:\Users\Abubakar\IdeaProjects\demo\src\main\resources\com\home\demo\liked.png');
+    -fx-background-size: cover;
+}
+
+/* Apply styles to the ToggleButton */
+.heart-unfilled:selected {
+    -fx-background-image: url('C:\Users\Abubakar\IdeaProjects\demo\src\main\resources\com\home\demo\liked.png');
+    -fx-background-size: cover;
+}

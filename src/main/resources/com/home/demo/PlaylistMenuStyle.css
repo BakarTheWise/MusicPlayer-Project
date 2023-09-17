@@ -1,0 +1,22 @@
+/* playlist-menu.css */
+.custom-menu {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+}
+
+.custom-menu .menu-item {
+    -fx-background-color: transparent;
+}
+
+.custom-menu .menu-item:hover {
+    -fx-background-color: lightgray;
+}
+
+.custom-menu .menu-item:pressed {
+    -fx-background-color: darkgray;
+}
+
+.custom-menu .menu-item .label {
+    -fx-font-size: 14px;
+}

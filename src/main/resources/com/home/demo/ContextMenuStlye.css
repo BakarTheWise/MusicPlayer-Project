@@ -1,0 +1,21 @@
+/* context-menu.css */
+.context-menu {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.context-menu .menu-item {
+    -fx-background-color: transparent;
+}
+
+.context-menu .menu-item:hover {
+    -fx-background-color: lightgray;
+}
+
+.context-menu .menu-item:pressed {
+    -fx-background-color: darkgray;
+}
+
+.context-menu .menu-item .label {
+    -fx-font-size: 14px;
+}

@@ -1,0 +1,18 @@
+/* Define a style for the normal state */
+.grid-pane {
+    -fx-background-color: #131622; /* Background color when not hovered or pressed */
+    -fx-border-color: #67C4C6; /* Border color */
+    -fx-border-width: 1;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 0); /* Add drop shadow */
+}
+
+/* Define a style for the hover state */
+.grid-pane:hover {
+    -fx-background-color: #2A2A2A; /* Background color on hover */
+}
+
+/* Define a style for the pressed state */
+.grid-pane:pressed {
+    -fx-background-color: #2A2A2A; /* Background color when clicked */
+}
